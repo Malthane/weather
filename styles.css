@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/snow3.jpg");
+  height: 100vh;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: sans-serif;
+  background-size: cover;
+}
+.weatherApp {
+  width: 50vh;
+  margin: 100px auto;
+  /* background-color: rgba(240, 248, 255, 0.6); */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  /* background: linear-gradient(to right, #009fff, #ec2f4b); */
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+.weatherApp > * {
+  margin-bottom: 20px;
+}
+.search {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+}
+.searchClass {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1.2rem;
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 10px;
+  text-align: center;
+}
+/* .searchClass:focus {
+  background-color: rgba(255, 255, 255);
+} */
+.details {
+  color: snow;
+  padding: 20px;
+  line-height: 3rem;
+  border-radius: 10px;
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  /* background: linear-gradient(
+    349deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(22, 22, 84, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  
+  /* background: linear-gradient(to right, #c31432, #240b36); */
+  background: linear-gradient(to right, #360033, #0b8793);
+}
+.location-details {
+  font-weight: bold;
+}
+.weather-status {
+  padding: 20px;
+}
+.temprature {
+  font-size: 50pt;
+  font-weight: 700;
+  margin: 20px 0;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+.min-max,
+.weather-type {
+  font-size: 12pt;
+  font-weight: 600;
+}
